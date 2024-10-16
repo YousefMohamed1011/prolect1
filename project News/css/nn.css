@@ -1,0 +1,112 @@
+/* Start Global Rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* End Global Rules */
+.nav {
+    background-color: #003366;
+}
+.nav div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+    
+}
+.nav div  .logo{
+    color: #fff;
+    font-size:30px;
+    letter-spacing: 2px;
+}
+.search-container input {
+    color: #777;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius:5px 0 0 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    
+    color: #fff;
+    background-color:#007BFF ;
+    border-radius: 0 5px 5px 0;
+    outline: 0;
+    border: 0;
+
+}
+.news  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card {
+    padding:12px;
+    border: 1px solid #D0D0D0;
+    width:300px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 250px;
+    object-fit: cover;
+}
+.card h2 {
+    color: #333;
+    font-size: 25px;
+}
+.card p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+@media(max-width: 500px) {
+    .card {
+        width: 100%;
+        
+    }
+}
